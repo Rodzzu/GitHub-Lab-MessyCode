@@ -15,7 +15,7 @@ def main():
 
       sum = addNum(int(numA), int(numB))
 
-      print("The sum is: ", sum)
+      print("The sum is: ", sum) # Displays the sum
       break
 
     except ValueError: # otherwise, display an error message and prompt the user for input again
