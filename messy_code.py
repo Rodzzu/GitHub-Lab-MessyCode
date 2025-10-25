@@ -1,18 +1,24 @@
+# this program add numbers and print the result but its really messy
 
-#Function to add two numbers
-def addnumb(a,b):
-  try: #Implement Error handling
-    return int(a) + int(b)
-  except ValueError:
-    print("Please Input Valid numbers")
-    return None
+def addNum(a, b): # function for handdling two-digit addition
+  return a + b
 
-  #Function to excecute the program
 def main():
-  firstNumber=input(("enter first number: "))
-  secondNumber=input(("enter second number: "))
-  result=addnumb(firstNumber, secondNumber)
-  print(f"the sum is : {result}")
+  while True:
+    
+    try: # if user input the correct data type, print the answer, and escape the loop
+      
+      print("This is a simple adder program")
 
-print("This is a simple adder program")
-main()
+      numA = input("Enter first number: ")
+      numB = input("Enter second number: ")
+
+      sum = addNum(int(numA), int(numB))
+
+      print("The sum is: ", sum)
+      break
+
+    except ValueError: # otherwise, display an error message and prompt the user for input again
+      print("Invalid input. Please enter a WHOLE NUMBER.\n")
+
+main() # call the function at end
