@@ -10,10 +10,10 @@ def main():
       
       print("This is a simple adder program")
 
-      numA = input("Enter first number: ")
-      numB = input("Enter second number: ")
+      num1 = input("Enter first number: ")
+      num2 = input("Enter second number: ")
 
-      sum = addNum(int(numA), int(numB))
+      sum = addNum(int(num1), int(num2))
 
       print("The sum is: ", sum) # Displays the sum
       break
