@@ -1,8 +1,31 @@
-# Part 2 — Collaborative Coding Activity
-# Objectives:
-1.	Students will collaborate to fix and improve a messy code file using GitHub.
-2.	This activity introduces branching, pull requests, and team collaboration.
-Step 1: Instructor Setup
-1.	Instructor creates a repository named GitHub-Lab-MessyCode.
-2.	Upload this messy code file:
-messy_code.py
+# How to use the program
+1. Clone the repository
+2. The program will perform addition of two numbers
+3. The result will be displayed
+
+Overview of the code
+
+# this program add numbers and print the result but its really messy
+
+def addNum(a, b): # function for handdling two-digit addition
+  return a + b
+
+def main():
+  while True:
+    
+    try: # if user input the correct data type, print the answer, and escape the loop
+      
+      print("This is a simple adder program")
+
+      numA = input("Enter first number: ")
+      numB = input("Enter second number: ")
+
+      sum = addNum(int(numA), int(numB))
+
+      print("The sum is: ", sum)
+      break
+
+    except ValueError: # otherwise, display an error message and prompt the user for input again
+      print("Invalid input. Please enter a WHOLE NUMBER.\n")
+
+main() # call the function at end
