@@ -1,8 +1,8 @@
-# Part 2 — Collaborative Coding Activity
-# Objectives:
-1.	Students will collaborate to fix and improve a messy code file using GitHub.
-2.	This activity introduces branching, pull requests, and team collaboration.
-Step 1: Instructor Setup
-1.	Instructor creates a repository named GitHub-Lab-MessyCode.
-2.	Upload this messy code file:
-messy_code.py
+# How to use the program
+1. Clone the repository
+2. The program will perform addition of two numbers
+3. Input the first number and the second number
+4. THe result will be diplayed in the terminal
+
+Overview of the code
+<img width="931" height="641" alt="image" src="https://github.com/user-attachments/assets/1e65068c-fd5b-4bcd-92ae-96023afc057d" />
